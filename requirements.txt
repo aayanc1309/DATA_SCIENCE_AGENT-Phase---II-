@@ -1,0 +1,34 @@
+# FastAPI Backend
+fastapi==0.115.*
+uvicorn[standard]==0.34.*
+python-multipart==0.0.*
+pydantic==2.*
+pydantic-settings==2.*
+
+# Data Processing
+pandas==2.*
+openpyxl==3.*
+xlrd==2.*
+
+# Profiling (Phase 2)
+# ydata-profiling==4.* (Not compatible with Python 3.14)
+
+# AI / Agent (Phase 2)
+langchain==0.3.*
+langgraph==0.2.*
+langchain-google-genai==2.*
+langsmith==0.2.*
+
+# Database (Phase 5)
+# sqlalchemy[asyncio]==2.*
+# asyncpg==0.30.*
+# alembic==1.*
+
+# Redis (Phase 2)
+# redis==5.*
+# celery==5.*
+
+# Testing
+pytest==8.*
+httpx==0.28.*
+pytest-asyncio==0.25.*
